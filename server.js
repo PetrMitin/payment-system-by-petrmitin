@@ -6,7 +6,7 @@ const path = require('path')
 const app = express()
 
 const port = process.env.PORT || 4000
-const page_adress = "https://payment-system-by-petrmitin.herokuapp.com/"
+const page_adress = "https://payment-system-by-petrmitin.herokuapp.com"
 
 app.use(cors())
 app.use(express.json())
