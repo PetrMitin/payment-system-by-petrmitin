@@ -44,7 +44,7 @@
         const payButton2 = document.getElementById('buy-item2')
         const initializePayment = item => {
             return async () => {
-                const reqUrl = 'http://localhost:4000/create-checkout-session'
+                const reqUrl = 'https://payment-system-by-petrmitin.herokuapp.com/create-checkout-session'
                 const currentItem = item
                 try {
                     const res = await fetch(reqUrl, {
